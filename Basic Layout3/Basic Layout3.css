@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Images/textured-wallpaper-6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+ul {
+    margin-right: 50px;
+}
+ul li {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 5px;
+}
+ul a { 
+    padding: 10px 30px;
+    font-size: 20px;
+    color: rgb(255, 245, 245);
+    text-decoration: none;
+    display: block;
+    transition: 0.6s ease;
+    background-color: rgb(133, 113, 87);
+}
+li a:hover {
+    background-color: violet;
+    color: black;
+}
+ul {
+    float: right;
+}
+#active{
+    background-color: violet;
+    color: black;
+}
+#title {
+    position: absolute;
+}
+#logo img{
+    float: left;
+    height: 150px;
+    width: 150px;
+    padding: 25px;
+}
+#title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#title h1 {
+    color: wheat;
+      font-size: 70px;
+}
+#bothbuttons {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn {
+    border: 1px solid rgb(133, 113, 87);
+    padding: 5px 30px;
+    text-decoration: none;
+    margin: 10px;
+    background-color: rgb(116, 95, 69);
+    color: white;
+    font-size: 50px;
+}
+#bothbuttons a:hover {
+    background-color: violet;
+    color: black;
+    transition: 0.5s ease;
+}
